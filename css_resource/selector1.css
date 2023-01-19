@@ -1,0 +1,107 @@
+/** 실습1
+span {
+  color: aqua;
+  font-size: 50px;
+}
+p {
+  font-size: 200%;
+}
+
+div {
+  color: blue;
+}
+**/
+/** 실습2
+h2 {
+  font-weight: bold;
+  color: brown;
+}
+
+section > p {
+  font-weight: bold;
+  color: brown;
+}
+
+nav li {
+  list-style: none;
+}
+**/
+/**
+div {
+  font-size: 14px;
+}
+
+.one {
+  color: red;
+}
+
+.two {
+  color: blue;
+}
+
+span {
+  font-size: 16;
+}
+**/
+/** 실습 3
+#students1 {
+  color: red;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#students2 {
+  color: blue;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+**/
+
+/** 
+div {
+  font-size: 12px;
+  color: skyblue;
+}
+
+.show {
+  font-size: 20px;
+  color: skyblue;
+  font-family: 맑은 고딕;
+}
+
+#disp {
+  font-size: 40px;
+}
+**/
+/**
+#apple {
+  background-color: yellow;
+}
+#melon {
+  background-color: yellow;
+}
+
+#one {
+  list-style: none;
+}
+#one > li.menu {
+  color: blue;
+}
+
+#two {
+  list-style: none;
+}
+
+#two > li.menu {
+  color: red;
+}
+**/
+
+#content > .title ~ div {
+  font-size: 20px;
+  color: blue;
+}
+#content > .title + div {
+  font-size: 9px;
+  color: red;
+}
